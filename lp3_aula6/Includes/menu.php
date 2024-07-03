@@ -8,7 +8,7 @@
             <a class="nav-link text-white fs-2 text" href="../Clientes/index.php">Clientes</a>
                 </li>
         <li class="nav-item">
-            <a class="nav-link text-white fs-2 text" href="#">Produtos</a>
+            <a class="nav-link text-white fs-2 text" href="../produtos/index.php">Produtos</a>
                 </li>
         </ul>
 

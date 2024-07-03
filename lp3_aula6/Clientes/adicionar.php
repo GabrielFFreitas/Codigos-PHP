@@ -19,26 +19,26 @@
 
                 <h4 class="mt-2">Lista de Clientes</h4>
                 
-                    <form action=""></form>
+                    <form action="add.php" method="post">
                         <div class="mb-3">
                             <label for="idnome" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="idnome" name="camponome" placeholder="Your Name">
+                            <input type="text" class="form-control" id="idnome" name="camponome" placeholder="Your Name" required>
                         </div>
                         <div class="mb-3">
                             <label for="idemail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="idemail" name="campoemail" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="idemail" name="campoemail" placeholder="name@example.com" required>
                         </div>
                         <div class="mb-3">
                             <label for="idcpf" class="form-label">CPF</label>
-                            <input type="text" class="form-control" id="idcpf" name="campo" placeholder="CPF">
+                            <input type="text" class="form-control" id="idcpf" name="campocpf" placeholder="CPF" required>
                         </div>
                         <div class="mb-3">
                             <label for="iddata" class="form-label">Data de Nascimento</label>
-                            <input type="date" class="form-control" id="iddata" name="campodata">
+                            <input type="date" class="form-control" id="iddata" name="campodata" required>
                         </div>
                         <label class="form-label">Sexo</label>
                         <div class="form-check">
-                            <input class="form-check-input justify-content-start" type="radio" name="camposexo" id="idsexom">
+                            <input class="form-check-input justify-content-start" type="radio" name="camposexo" id="idsexom" required>
                             <label class="form-check-label" for="idsexom">Masculino</label>
                         </div>
                             <div class="form-check">
@@ -50,9 +50,9 @@
                             <textarea class="form-control" id="idobs" name="campoobs" rows="3"></textarea>
                         </div>
 
-                <button type="submit" class="btn btn-success mb-3">Gravar</button>
-                <a href="./index.php" class="btn btn-secondary mb-3">Voltar</a>
-
+                      <button type="submit" class="btn btn-success mb-3">Gravar</button>
+                      <a href="./index.php" class="btn btn-secondary mb-3">Voltar</a>
+                    </form>
             </div>
         </div>
 </div>
